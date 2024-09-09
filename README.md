@@ -1,4 +1,4 @@
-## RazorPay Landing Page Clone - UI - Tailwind CSS
+## RazorPay - Tailwind CSS
 
-- RazorPay landing page UI created with Tailwind CSS.
-- It is a complete User Interface focused project, primarily to learn how to leverage Tailwind CSS and create exceptional and attractive visual designs.
+- RazorPay landing page UI developed with Tailwind CSS from scratch.
+- It is primarily developed while learning Tailwind CSS, leveraging its features and creating exceptional UI design.
