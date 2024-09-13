@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="main.css" />
     <script src="https://unpkg.com/feather-icons"></script>
     <title>Razorpay</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       .corefeaturesection {
         background-size: 100% 100%;
         padding-top: 12rem;
         padding-bottom: 12rem;
+      }
+      .ctaSection {
+        background-size: 100% 100%;
       }
       .companiesList {
         animation: 10s infinite linear moveCompany;
@@ -1572,7 +1584,7 @@
         <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-row">
           <!-- left part -->
           <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
-            <h2 class="font-sans-serif font-bold text-2xl text-deepBlueHead">
+            <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">
               Join the 50,00,000+ businesses using Razorpay
             </h2>
             <div class="w-6 h-1 bg-greenLight mb-10 my-4"></div>
@@ -1723,6 +1735,116 @@
             <!-- dot 6 -->
             <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
           </div>
+        </div>
+      </section>
+
+      <!-- CTA section -->
+      <section
+        class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection"
+      >
+        <!-- main content box -->
+        <div
+          class="w-11/12 max-w-[1080px] relative flex flex-row mx-auto items-center justify-between space-x-20"
+        >
+          <!-- left part -->
+          <div>
+            <h2 class="font-mullish font-bold text-2xl text-white">
+              Supercharge your business with Razorpay
+            </h2>
+            <div class="w-6 h-1 bg-greenLight"></div>
+            <p class="font-mullish text-white">
+              Sign up now to experience future of payments and offer <br />
+              your customers the best checkout experience.
+            </p>
+
+            <ul class="flex flex-row flex-wrap gap-1 space-y-2 text-white">
+              <li class="font-mullish text-white flex flex-row">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check text-greenLight"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Quick Onboarding</span>
+              </li>
+              <li class="font-mullish text-white flex flex-row">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check text-greenLight"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Access to entire product suite</span>
+              </li>
+              <li class="font-mullish text-white flex flex-row">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check text-greenLight"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>API access</span>
+              </li>
+              <li class="font-mullish text-white flex flex-row">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check text-greenLight"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>24x7 support</span>
+              </li>
+            </ul>
+            <button
+              class="py-3 px-4 min-w-[32px] font-mullish text-sm font-extrabold bg-white text-lightBlue300 border rounded-sm hidden lg:flex items-center hover:text-lightBlue500 transition-all duration-200"
+            >
+              Sign Up
+              <svg
+                viewBox="0 0 24 24"
+                focusable="false"
+                class="w-[20px] h-[20px] -skew-x-[0deg]"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <!-- right part img -->
+          <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" />
         </div>
       </section>
     </div>
